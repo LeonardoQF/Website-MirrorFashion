@@ -1,0 +1,64 @@
+/* ponto para classes, hashtag para IDs 
+ex:
+#foto-logo
+.texto*/
+
+body{
+color:#003366;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+.menu-opcoes{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.menu-opcoes ul{
+
+    font-size:15px;
+}
+.menu-opcoes a{
+    
+    color:#003366;
+    
+}
+
+.menu-opcoes ul li{
+
+    display: inline;
+    margin-left: 20px;
+
+
+}
+
+.sacola{
+    
+    background-image : url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size : 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align : right;
+    width: 140px;
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+    position: relative;
+}
+
+
+
